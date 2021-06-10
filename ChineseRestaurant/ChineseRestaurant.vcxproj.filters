@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{30a1cfcb-9eac-406c-95ef-aa46a9cec0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logger">
+      <UniqueIdentifier>{95cdd809-c70d-4547-a397-891d9e4e42fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simulator">
+      <UniqueIdentifier>{a32e8606-31fc-4655-b788-7f1226213d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\random_generator">
+      <UniqueIdentifier>{efe2af9c-b889-4308-8ea0-1810eb67b627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\statistics">
+      <UniqueIdentifier>{781b0dcf-0c1a-4b66-9cf8-429284856ffc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics.cpp">
+      <Filter>Source Files\statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="agenda.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="simulator.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="time_event.cpp">
+      <Filter>Source Files\simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="kernels.cpp">
+      <Filter>Source Files\random_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="random_generator.cpp">
+      <Filter>Source Files\random_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="rng.cpp">
+      <Filter>Source Files\random_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="buffet.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="cashier.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="chinese_restaurant.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="customer_group.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="waiter.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source Files\logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="statistics.h">
+      <Filter>Source Files\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="agenda.h">
+      <Filter>Source Files\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="simulator.h">
+      <Filter>Source Files\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="time_event.h">
+      <Filter>Source Files\simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="kernels.h">
+      <Filter>Source Files\random_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="random_generator.h">
+      <Filter>Source Files\random_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.h">
+      <Filter>Source Files\random_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="buffet.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="cashier.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="chinese_restaurant.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="customer_group.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="waiter.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Source Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Source Files\logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
